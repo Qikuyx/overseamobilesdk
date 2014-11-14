@@ -15,11 +15,13 @@
   IOS版本帮助地址：[https://developers.google.com/analytics/devguides/collection/ios/v3/](https://developers.google.com/analytics/devguides/collection/ios/v3/ "https://developers.google.com/analytics/devguides/collection/ios/v3/")
 #####   基本集成
 向AndroidManifest.xml文件中添加两个权限
-```xml
-`\<uses-permission android:name="android.permission.INTERNET" /\>
-\<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /\>
-```
-`### 广告平台
+
+	```xml
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	```
+
+### 广告平台
 ### 社交SDK
 ### PUSH推送
 
